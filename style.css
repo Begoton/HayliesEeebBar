@@ -1,0 +1,78 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 94, 174);
+}
+#main
+{
+    height: 600px;
+    width: 350px;
+    box-shadow: 5px 5px 5px rgb(255, 129, 192);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 1px solid pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 10px;
+}
+#bar
+{
+    height: 70%;
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+#fill
+{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 117, 186);
+    bottom: 0;
+    position: absolute;
+    border-radius: 10px;
+    transition: 1000ms;
+}
+#window
+{
+    height: 600px;
+    width: 350px;
+    background-color: hotpink;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    display: none;
+}
+#close
+{
+    float: right;
+}
+#messages
+{
+    
+}
+
+.epim
+{
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 70px;
+    z-index: 1;
+}
